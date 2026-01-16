@@ -1,26 +1,26 @@
-# student = {
-#     "name":{"Ayush", "Balvant"},
-#     "age" : {20,21},
-#     "Interested":{"Coding", "Coding"}
-# }
+student = {
+    "name":{"Ayush", "Balvant"},
+    "age" : {20,21},
+    "Interested":{"Coding", "Coding"}
+}
 
-# student["color"] = "red"
+student["color"] = "red"
 
-# print(student["name"])
+print(student["name"])
 
-# print(student.get("email"))
-# # print(student["email"])  Error
+print(student.get("email"))
+# print(student["email"])  Error
 
-# for key in student:
-#     print(key, " : ", student[key])
+for key in student:
+    print(key, " : ", student[key])
 
-# x = [
-#     {"name":"Ayush", "Age": 20},
-#     {"name":"Balvant", "Age": 21},
-#     {"name":"Adsd", "Age": 32},
-# ]
+x = [
+    {"name":"Ayush", "Age": 20},
+    {"name":"Balvant", "Age": 21},
+    {"name":"Adsd", "Age": 32},
+]
 
-# print(x)
+print(x)
 
 country = {
     "India":"Delhi",
@@ -68,3 +68,4 @@ print(country)
 
 country.clear()
 print(country)
+
