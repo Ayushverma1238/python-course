@@ -103,3 +103,24 @@ l1 = Laptop("HP", "12GB")
 l2 = Laptop("Lenovo", "12GB")
 l1.printValue()
 l2.printValue()
+
+class Techer:
+    def __init__(self, name, subject):
+        self.name = name
+        self.subject = subject
+
+    def printDetail(self):
+        print(f"Techer name: {self.name} and its subject {self.subject}")
+    
+t1 = Techer("Vinayak", "Python Programming")
+t1.printDetail()
+
+class Company:
+    company_name = "Infosys"
+    def __init__(self, emp_name):
+        self.emp_name = emp_name
+    def printDetail(self):
+        print(f"Employee name {self.emp_name} and he is working in {self.company_name}")
+    
+c1 = Company("Ayush")
+c1.printDetail()
