@@ -35,7 +35,6 @@ acc = BankAccount("Ayush", 300)
 acc.deposite(500)
 print(acc.get_balance())       
 
-Question
 
 class Student:
     def __init__(self):
@@ -84,4 +83,68 @@ class Employee(Person):
     
 E1= Employee("Balvant", 20, 20000)
 E1.printDetail()
+
+class Vehical:
+    def __init__(self):
+        pass
+    def start(self):
+        print("Vehical start")
+    
+class Car(Vehical):
+    def drive(self):
+        print("Car is drive")
+    
+C1 = Car()
+C1.start()
+C1.drive()
+
+class GrandFather:
+    def GfShow(self):
+        print("Grand Father")
+class Father(GrandFather):
+    def FShow(self):
+        print("Father")
+    
+class Son(Father):
+    def show(self):
+        print("Son")
+    
+S1 = Son()
+S1.show()
+S1.FShow()
+S1.GfShow()
+
+class Animal:
+    def sound(self):
+        print("Any Random sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog sound is Bho Bho")
+    
+class Cat(Animal):
+    def sound(self):
+        print("Cat sound is Meow")
+d1 = Dog()
+d1.sound()
+
+c1 = Cat()
+c1.sound()
+
+def make_sound(animal):
+    animal.sound()
+        
+
+class Dog:
+    def sound(self):
+        print("Bho Bho")
+
+class Cat :
+    def sound(self):
+        print("Meow")
+
+dog = Dog()
+cat = Cat()
+make_sound(cat)
+make_sound(dog)
 
